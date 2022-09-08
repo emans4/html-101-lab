@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Commands</title>
+    <style>
+        table {
+            border: 1px solid black;
+            text-align: center;
+            padding: 1px;
+        }
+    
+        td {
+            text-align: left;
+            border: 1px solid black;
+            padding: 5px;
+        }
+    
+        tr,th {
+            border: 1px solid black;
+            padding: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HTML Commands:</h1>
+    <dl>
+        <dt><b>&ltimg&gt</b>
+        </dt>
+        <dd>
+            <ul>
+                <li>purpose: embeds am image into the document.</li>
+                <li>example:<b> &ltimg src=&quotsomefunnypicture.jpg&quot alt=&quotsome funny pictures&quot&gt
+                    </b>
+                </li>
+                <li>attributes:</li>
+                <table>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Values</th>
+                        <th>Meaning</th>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">src</td>
+                        <td>URL</td>
+                        <td>source file</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">height</td>
+                        <td>number, percentage</td>
+                        <td>the intrinsic height of the image, in pixels. Must be an interger without a unit.</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">width</td>
+                        <td>number, percentage</td>
+                        <td>The intrinsic width of the image in pixels. Must be an interger without a unit.</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">alt</td>
+                        <td>text</td>
+                        <td>Defines an alternative text description of the image.</td>
+                    </tr>
+                </table>
+            </ul>
+        </dd>
+        <br>
+
+        <dt><b>&lta&gt, &lt/a&gt</b></dt>
+        <dd>
+            <ul>
+                <li>purpose: anchor element, creates a <a href="https://en.wikipedia.org/wiki/Cat"
+                        target="_blank">hyperlink</a> to web
+                    pages, files, email addresses, locations in the
+                    same page, or anything else a URL can address.</li>
+                <li>example:<b>&lta</b> href="https://en.wikipedoa.org/wiki/cat"&gtWiki Cats.<b>&lt/a&gt</b></li>
+                <li>attributes: </li>
+                <table border="1px solidblack" cellpadding="5px">
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Values</th>
+                        <th>Meaning</th>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">href</td>
+                        <td>URL</td>
+                        <td>The URL that the hyperlink points to.</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;" rowspan="5;">target</td>
+                        <td>name_of_frame</td>
+                        <td>Where tp display the linked URL, as the name for a browsing context (a tab, window, or
+                            &ltiframe&gt).</td>
+                    </tr>
+                    <tr>
+                        <td>_blank</td>
+                        <td>usually a new tab, but users can configure browsers to open a new window instead.</td>
+                    </tr>
+                    <tr>
+                        <td>_parent</td>
+                        <td>the parent browsing context of the current one. If no partent, behaves as _self.</td>
+                    </tr>
+                    <tr>
+                        <td>_top</td>
+                        <td>the topmost browsing context (the "highest" context thata an ancestor of the current one),
+                            If no ancestors, behaves as _self.</td>
+                    </tr>
+                    <tr>
+                        <td>_self</td>
+                        <td>the current browsing context.(Default)</td>
+                    </tr>
+                </table>
+            </ul>
+        </dd>
+        <br>
+        <dt><b>&ltp&gt,  &lt/p&gt</b></dt>
+        <dd>
+            <ul>
+                <li>purpose: new paragraph</li>
+                <li>example:<b>&ltp&gt</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, in illo
+                    natus maxime eligendi quas quia recusandae quod numquam aliquam hic nemo totam autem ipsam quidem
+                    est! Voluptates, sunt deleniti.<b>&lt/p&gt</b></li>
+                <li>attributes:</li>
+                <table>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Values</th>
+                        <th>Meaning</th>
+                    </tr>
+                    <tr>
+                        <td>This element only includes the global attributes.
+                            Note: The aling Attribute on &ltp&gt tags is obsolete and shouldn't be used.
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </ul>
+        </dd>
+    </dl>
+
+</body>
+
+</html>
