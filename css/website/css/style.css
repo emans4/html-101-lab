@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    max-width: 900px;
+    margin: 200px auto;
+}
+
+section {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+    padding:20px;
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+}
+
+div {
+    width: 100%;
+}
+
+img {
+    width: 50px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}

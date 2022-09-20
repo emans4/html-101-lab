@@ -1,0 +1,27 @@
+html {
+  background-image: url(/img/old-paper.png);
+}
+
+body {
+  font-family: "Rye", cursive;
+  font-size: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  font-size: 3rem;
+  overflow: hidden;
+}
+
+h1 {
+  letter-spacing: 0.6rem;
+  margin: 0;
+}

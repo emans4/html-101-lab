@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+  }
+  
+  main{
+    max-width: 80%;
+    margin: auto;
+  }
+ 
+  h2.main-title{
+    text-transform: uppercase;
+  }
+  
+  h1.town{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+  
+  section{
+    border: 2px aqua solid;
+    border-radius: 25px;
+    padding: 10px;
+    overflow: auto;
+    margin-bottom: 20px;
+  }
+  
+  section h1{
+    margin: 5px;
+  }
+  
+  section::after{
+    content: '';
+    clear: both;
+  }
+  
+  
+  .left-panel{
+  float: left;
+  }
+  .left-panel img{
+    float: left;
+    width:300px;
+    display: inline-block;
+  }
+  
+  .left-panel div{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 90px;
+  
+  }
+  
+  p.temp{
+    
+    font-size: 4rem;
+    font-weight: bolder;
+  
+  }
+  
+  p.temp, p.feels-like{
+      margin: 0;
+  }
+  
+  p.feels-like{
+    font-size: 2rem;
+  }
+  
+  
+  
+  
+  .right-panel{
+    float: right;
+    margin-right: 100px;
+    width: 500px;
+    font-size: 18px;
+    
+  }
+  
+  .right-panel p{
+    margin: 12px 0;
+  }
+  
+  .right-panel span.value{
+   display: inline-block;
+   float: right;
+  }
+  
+  .right-panel .green{
+    color:green;
+  }
+  
+ 
+  footer{
+    margin-top: 100px;
+    padding: 1rem;
+    background-color: aqua;
+  }
